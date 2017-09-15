@@ -18,3 +18,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::prefix('news')->group(function () {
+    Route::get('add', function() {
+        return view('news.add');
+    })->name('addNews')->middleware('auth');
+});
