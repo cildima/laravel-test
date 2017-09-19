@@ -9,6 +9,7 @@
 return [
     'home' => 'Home',
     'login' => 'Login',
+    'logout' => 'Logout',
     'register' => 'Register',
     'add_news' => 'Add News'
 ];

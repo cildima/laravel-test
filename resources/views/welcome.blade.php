@@ -83,7 +83,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="{{ route('addNews') }}">@lang('welcome.add_news')</a>
+                    <a href="{{ route('add_news') }}">@lang('welcome.add_news')</a>
                 </div>
             </div>
         </div>

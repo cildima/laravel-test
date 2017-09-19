@@ -22,5 +22,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::prefix('news')->group(function () {
     Route::get('add', function() {
         return view('news.add');
-    })->name('addNews')->middleware('auth');
+    })->name('add_news')->middleware('auth');
+    Route::post('save', 'NewsController@save')
+        ->name('save_news')->middleware('auth');
 });
