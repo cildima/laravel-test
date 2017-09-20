@@ -83,7 +83,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="{{ route('add_news') }}">@lang('welcome.add_news')</a>
+                    <a href="{{ route('edit_news', ['id' => 0]) }}">@lang('welcome.add_news')</a>
+                    <a href="{{ route('edit_news', ['id' => 30]) }}">@lang('welcome.edit_news')</a>
                 </div>
             </div>
         </div>

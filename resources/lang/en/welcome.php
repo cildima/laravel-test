@@ -11,5 +11,6 @@ return [
     'login' => 'Login',
     'logout' => 'Logout',
     'register' => 'Register',
-    'add_news' => 'Add News'
+    'add_news' => 'Add News',
+    'edit_news' => 'Edit News'
 ];
